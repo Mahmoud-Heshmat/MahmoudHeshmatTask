@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clickable="true">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:stretchColumns="*"
+        android:layout_weight="1">
+
+        <TableRow
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:text="@string/doctor_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginLeft="15dp"
+                android:textColor="@color/black"
+                android:id="@+id/doctor_nameText" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/doctor_name"
+                android:textSize="20sp"
+                android:textColor="@color/ROSE"
+                android:ems="10"
+                android:id="@+id/doctor_name" />
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <TextView
+                android:text="@string/specialization"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginLeft="15dp"
+
+                android:textColor="@color/black"
+                android:id="@+id/specializationText" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/specialization"
+                android:ems="10"
+                android:textSize="20sp"
+                android:textColor="@color/ROSE"
+                android:id="@+id/specialization" />
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <TextView
+                android:text="@string/address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginLeft="15dp"
+
+                android:textColor="@color/black"
+                android:id="@+id/addressText" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/address"
+                android:ems="10"
+                android:textSize="20sp"
+                android:textColor="@color/ROSE"
+                android:id="@+id/address" />
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:text="@string/price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginLeft="15dp"
+
+                android:textColor="@color/black"
+                android:id="@+id/priceText" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/price"
+                android:textSize="20sp"
+                android:textColor="@color/ROSE"
+                android:ems="10"
+                android:id="@+id/price" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <TextView
+                android:text="@string/appointment_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginLeft="15dp"
+                android:textColor="@color/black"
+                android:id="@+id/appointment_dateText" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/appointment_date"
+                android:ems="10"
+                android:textSize="20sp"
+                android:textColor="@color/ROSE"
+                android:id="@+id/appointment_date" />
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <TextView
+                android:text="@string/medicine_used_before"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginLeft="15dp"
+
+                android:textColor="@color/black"
+                android:id="@+id/Medicine_usedTtext" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/medicine_used_before"
+                android:ems="10"
+                android:textSize="20sp"
+                android:textColor="@color/ROSE"
+                android:id="@+id/Medicine_used" />
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:text="@string/confirm_booking"
+            android:id="@+id/confirm_book"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/ROSE"
+            android:textColor="@color/white"
+            android:layout_weight="1"/>
+
+        <Button
+            android:text="@string/cancel_booking"
+            android:id="@+id/cancel_book"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/ROSE"
+            android:textColor="@color/white"
+            android:layout_marginLeft="5dp"
+
+            android:layout_weight="1"/>
+
+        <Button
+            android:text="@string/edit_booking"
+            android:id="@+id/edit_book"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/ROSE"
+            android:textColor="@color/white"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

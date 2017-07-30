@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">MahmoudHeshmatTask</string>
+
+    <string name="facebook_app_id">330378667410689</string>
+
+    <string name="username">Name</string>
+    <string name="emailAddress">Email Address</string>
+    <string name="password">Password</string>
+
+    <string name="nameerror">Name at least 3 character</string>
+    <string name="emailerror">email pattern test@test.com</string>
+    <string name="passwroderror">Password at least 8 character or numbers</string>
+    <string name="sign_up">Sign up</string>
+    <string name="check_email">Email is Registered before Please check again</string>
+    <string name="show_password">Show password</string>
+    <string name="forgetPassword">Forget Password</string>
+    <string name="login">Login</string>
+    <string name="login_check">Email or Password incorrect Please Check</string>
+
+    <string name="doctor_name">Doctor Name</string>
+    <string name="specialization">Specialization</string>
+    <string name="address">Address</string>
+    <string name="price">Price</string>
+    <string name="search">Search</string>
+    <string name="book">Book</string>
+    <string name="choose_the_time">Choose the Time</string>
+
+    <string name="Dentistry">Dentistry</string>
+    <string name="Psychiatry">Psychiatry</string>
+    <string name="Neuralogy">Neuralogy</string>
+    <string name="Ear_and_Nose">Ear and Nose</string>
+    <string name="Audilogy">Audilogy</string>
+    <string name="Chest">Chest</string>
+    <string name="Elder">Elder</string>
+    <string name="Oncology">Oncology</string>
+    <string name="medicine_used_before">Medicine</string>
+    <string name="date_choose">Date you choose is past date</string>
+    <string name="visit_date">Please choose the date you want to visit the doctor</string>
+    <string name="appointment_date">Date</string>
+    <string name="confirm_booking">Confirm</string>
+    <string name="cancel_booking">Cancel</string>
+    <string name="edit_booking">Edit Booking</string>
+    <string name="error">Something error happened</string>
+    <string name="mybooking">My Booking</string>
+    <string name="logout">Logout</string>
+
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+    <string name="patient_booking">Patient Booking</string>
+    <string name="patient_name">Patient Name</string>
+    <string name="delay_appointment">Delay</string>
+    <string name="cancel_book">Canceled booking Success</string>
+    <string name="cancel_btn">Cancel</string>
+
+    <string name="firstImage">Welcome to clinic App</string>
+    <string name="secondImage">You could booking with any doctor at any time you need</string>
+    <string name="thirdImage">Search on doctor with his specialty</string>
+    <string name="notes">Note : To Book You should Choost the you want and if you take medicine before</string>
+    <string name="confirmed">Confirmed</string>
+    <string name="internet_connection">Internet connection failed</string>
+
+</resources>

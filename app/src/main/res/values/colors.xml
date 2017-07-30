@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#005995</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="SteelBlue">#4682B4</color>
+
+    <color name="CERULEAN">#005995</color>
+    <color name="ROSE">#D63932</color>
+    <color name="MAASTRICHT">#011627</color>
+    <color name="RICH_BLACK">#00171F</color>
+
+</resources>
